@@ -1,0 +1,83 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, #0066cc 0%, #ff00ff 100%);
+}
+.registration-card{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+h2{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.colam-1{
+   margin-right: 50px;
+}
+
+.registration-form h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration-form{
+    width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.form-grup{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.gender-group{
+    display: flex;
+margin-top: -20px;
+margin-left: -5px;
+}
+.gender{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    gap: 2px;
+}
+.gender input{
+  width: 15px;
+}
+.Cancel{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    font-weight: bold;
+}
+.Submit{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #0066cc 0%, #ff00ff 100%);
+}
+.gender{
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.btn-group{
+    margin-left: 15px;
+}
